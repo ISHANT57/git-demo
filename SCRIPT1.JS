@@ -1,4 +1,4 @@
-// Generate matrix input fields based on the matrix size entered by the user
+
 function generateMatrixInputs() {
     const size = parseInt(document.getElementById("matrix-size").value);
     const matrixContainer = document.getElementById("matrix-inputs");
