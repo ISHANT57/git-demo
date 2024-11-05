@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Information for Encoding and Scaling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page Title -->
+    <title>Step-by-Step LDU Factorization</title>
+    
+    <!-- Link to External CSS Stylesheet -->
+    <link rel="stylesheet" href="STYLE1.CSS">
+</head>
+
+<body>
+    <!-- Main Heading for the Webpage -->
+    <header>
+        <h1>LDU Factorization (Step-by-Step)</h1>
+    </header>
+
+    <!-- Section for User Input: Matrix Size -->
+    <section>
+        <label for="matrix-size">Enter Matrix Size (n x n):</label>
+        <input type="number" id="matrix-size" min="2" placeholder="e.g., 3" aria-label="Matrix size input">
+        <button onclick="generateMatrixInputs()">Generate Matrix</button>
+    </section>
+
+    <!-- Dynamic Matrix Input Fields Container -->
+    <section id="matrix-inputs">
+        <!-- Matrix input fields will be generated here by JavaScript -->
+    </section>
+
+    <!-- Button to Trigger LDU Factorization Calculation -->
+    <section>
+        <button onclick="performLDUFactorization()">Calculate LDU Factorization</button>
+    </section>
+
+    <!-- Output Section for Step-by-Step LDU Factorization Results -->
+    <section id="steps-output">
+        <!-- The detailed steps will be displayed here by JavaScript -->
+    </section>
+
+    <!-- External JavaScript Script for Functionality -->
+    <script src="SCRIPT1.JS"></script>
+</body>
+</html>
